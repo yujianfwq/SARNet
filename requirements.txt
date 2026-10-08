@@ -1,0 +1,21 @@
+# SARNet requirements
+# Core training / inference dependencies (the Ultralytics engine is vendored in ./ultralytics)
+torch>=1.8.0
+torchvision>=0.9.0
+timm>=0.9.0            # required by ultralytics/nn/tasks.py (backbone factory)
+numpy>=1.23.0
+scipy>=1.4.1
+opencv-python>=4.6.0
+pillow>=7.1.2
+pyyaml>=5.3.1
+requests>=2.23.0
+psutil>=5.8.0
+polars>=0.20.0
+matplotlib>=3.3.0
+ultralytics-thop>=2.0.18   # FLOPs / parameter counting (model.info())
+
+# Optional: COCO-style metrics, experiment tracking, richer augmentation
+# faster-coco-eval>=1.6.5
+# tensorboard
+# swanlab
+# albumentations>=1.4.6

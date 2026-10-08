@@ -1,0 +1,123 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+ultralytics.egg-info
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+mlruns/
+
+# Environments
+.env
+.venv
+.idea
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.devcontainer/
+
+# mypy / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Datasets, runs and experiment tracking
+/datasets
+runs/
+wandb/
+.DS_Store
+
+# Neural network weights and exported models
+weights/
+*.weights
+*.pt
+*.ts
+*.pb
+*.onnx
+*.engine
+*.mlmodel
+*.mlpackage
+*.torchscript
+*.tflite
+*.h5
+*.mnn
+*_saved_model/
+*_web_model/
+*_openvino_model/
+*_paddle_model/
+*_ncnn_model/
+*_imx_model/
+pnnx*
+*.rknn
+
+# Training logs
+args.yaml
+results.csv
+
+# calibration image
+calibration_*.npy
+
+# Videos and pictures (keep tracked sample assets)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.bmp
+*.tiff
+*.gif
+*.heic
+*.ico
+*.raw
+
+# Misc
+*.pdf
+dataset/labels/*.cache
